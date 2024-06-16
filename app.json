@@ -1,9 +1,9 @@
 {
-  "name":"Zokou-2.0",
+  "name":"NoName-md",
   "description":"bot whatsapp développé par djalega++",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
-  "repository":"https://github.com/djalega8000/Zokou-2.0",
+  "repository":"https://github.com/Anime-King01/NoName-md",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Zokou-MD",
+      "value":"NoName-md",
       "required":false
 
     } ,
@@ -74,7 +74,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Djalega++"
+    "value": "NoName-md"
   },
     "NUMERO_OWNER":
   {
@@ -116,7 +116,7 @@
 
   "addons":[
     {
-      "plan":"heroku-postgresql:essential-0"
+      "plan":"heroku-postgresql"
     }
   ]
 }
